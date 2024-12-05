@@ -1,0 +1,52 @@
+.video-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tutorial-info {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.tutorial-info h3,
+.tutorial-info h4 {
+    text-align: left;
+    color: #2C3E50;
+}
+.tutorial-info p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.tutorial-info pre {
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.factor-list{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.formula {
+    text-align: left;
+    font-weight: bold;
+    color: #27AE60;
+}
+.section {
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(235, 235, 235, 0.575);
+    border-radius: 15px;
+    border-width: 2px;
+    
+}

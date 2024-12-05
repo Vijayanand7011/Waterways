@@ -1,0 +1,185 @@
+
+.content-block {
+    flex: 0 1 60%; /* Form takes up 60% of space */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    justify-content:space-between;
+    align-items: stretch; /* Ensure that all cards stretch to the same height */
+    position: absolute;
+    overflow-y: auto;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Stack content in the body vertically */
+    flex-grow: 1; /* Make sure the content takes up available space */
+    justify-content: space-between; /* Distribute space between elements inside the card */
+    max-width: 18rem; /* Set max-width to maintain consistency */
+    border-radius: 7px;
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+
+@media (max-width: 750px) {
+    .content-block {
+      grid-template-columns: 1fr ;
+    }
+  }
+  
+  @media (min-width: 751px) and (max-width: 999px) {
+    .content-block {
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .content-block {
+      grid-template-columns: 1fr 1fr 1fr ;
+    }
+  }
+
+.card img {
+    width: 100%; /* Ensure images stretch to fill the card width */
+    height: 200px; /* Fixed height for all images  */
+    object-fit: cover; /* Optional: cover the card without distortion */
+    border-radius: 8px; /* Image border radius */
+}
+
+.card-redirect {
+    width: 95%; /* Button width */
+    height: 25px; /* Height of the button */
+    border: solid;
+    padding: 3px 7px; /* Padding to give space inside the button */
+    border-radius: 7px; /* Rounded corners for the button */
+    box-sizing: border-box; /* Ensures padding and border are included in the element’s size */
+
+    align-self: flex-end; /* Push the button to the bottom of the card */
+    margin-top: auto; /* This pushes the anchor (button) to the bottom of the card */
+    margin-top: 8px;
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, ;
+    z-index: 2;
+
+}
+
+.card-redirect:hover {
+    background-color: rgb(24, 70, 255); /* Background colour changes on hover */
+    border: none;
+    border-radius: 5px;
+    border-color: aqua;
+    color: white; /* Change text color on hover */
+
+}
+
+.reference-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    padding-top: 30px;
+    background-color: #fefefe34;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+/*<------------------ Reference Text Styles ------------------>*/
+
+.reference-text {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f962;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  width: 80%;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.reference-item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.reference-item h2 {
+  text-align: end;
+  color: #444;
+  font-size: 1.2em;
+}
+
+
+.reference-item p {
+  text-align: left;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.reference-item a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+
+.reference-item a:hover {
+  text-decoration: underline;
+}
+
+
+.reference-item cite {
+  font-style: italic;
+}
+
+
+.tutorial {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(103, 255, 106, 0.65);
+  transition: background-color 0.3s, color 0.3s, padding 0.3s ;
+}
+
+
+.tutorial:hover {
+  font-size: 18px;
+  color: rgb(94, 94, 94);
+  padding: 8px 10px;
+  border-radius: 9px;
+  background-color: rgba(128, 255, 0, 0.525);
+}
+

@@ -1,0 +1,77 @@
+.home-page-content {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.home-page-content {
+    font-size: 28px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%; /* Ensures the content spans the full width of the parent */
+}
+
+.header-quote {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    width: 100%; /* Ensures the container takes up the full width of the parent */
+    text-align: center; /* Centers the text */
+}
+
+
+.home-content-container {
+    width: 100%;
+    display: flex; /* Use flexbox to align the content */
+    justify-content: space-between; /* Spread content from left to right */
+    align-items: flex-end; /* Align the content at the bottom */
+    height: auto; /* Give the container some height */
+    padding: 5px;
+}
+
+
+
+.home-content {
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Make sure the text starts from the left */
+    background-color: rgba(255, 255, 255, 0.45); /* Just to make the container visible */
+    padding: 10px 20px;
+    padding-top: 0px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.home-img img {
+    margin-top: 20px;
+    margin-left: -197.5px;
+    margin-bottom: 15px;
+    width: 155%;           /* Sets the image width to 95% of its container */
+    height: auto;         /* Maintains the aspect ratio */
+    border-radius: 15px;  /* Rounds the corners of the image */
+}
+
+.explorer {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 29px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    z-index: 1;
+}
+
+.explorer:hover {
+    background-color: rgba(77, 247, 43, 0.826); /* Background colour changes on hover */
+    border: none;
+    font-size: 32px;
+    border-radius: 15px;
+    border-color: aqua;
+    color: black; /* Change text color on hover */
+    opacity: 0.7; /* Change opacity on hover */
+}

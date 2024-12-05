@@ -1,0 +1,401 @@
+.news-list {display: table; width:100%}
+#rightcolumn {padding-left: 0px;}
+#rightcolumn div#tx_dyna_list_calendar {width: 225px;}
+
+#fileType-pdf {margin-left: 0px !important;}
+
+#headers {display:table-header-group;}
+
+.proj-keyfacts-box .csc-textpic {padding: 0px 20px 15px 5px;} 
+.proj-keyfacts-box .csc-textpic h2 {padding-top: 0px !important; margin-bottom: 0px !important;}
+
+/* div.tx-dynalist-pi1-recordlist {display: table-row-group;} */
+
+div.tx-dynalist-pi1-recordlist {
+  display: block; 
+  padding:15px 0;
+  margin-bottom:0;
+}
+
+div.tx-dynalist-pi1 div#headers {
+  background-color: #ccdfe7;
+  font-weight:bold;
+  text-align:center;
+}
+
+div.tx-dynalist-pi1 div#headers div.header {
+  padding:10px;
+  display: table-cell;  
+}
+
+div.contenttable div.list-text {
+  padding:10px;
+  background-color: #e4eef2;
+  width:auto;
+  display: table-cell;  
+}
+
+div.tx-dynalist-pi1 div.list-text a {
+  font-weight:normal;
+}
+
+div.news-list div.list-img {float: left;}
+div.news-list div.list-img img {margin-right: 10px; margin-bottom: 0x; }
+div.news-list div.list-block {/*margin-left: 135px;*/}
+
+div.news-list div.lng-buttons {margin-top: 10px;}
+
+/* div#c246983 div.news-list div.list-img img {margin-bottom: 20px;} */
+
+#video_icon {margin-top: 5px;}
+#video_icon img {width: 24px; margin:0 2px;}
+
+#c246916 img.list-img {margin-bottom: 20px; float: left; margin-right: 15px;}
+
+/* search */
+#maincontent .tx-dynafef-pi3 .dyna_form_field {clear:both; height: 20px;}
+#maincontent .tx-dynafef-pi3 .dyna_form_field div {float: left;}
+#maincontent .tx-dynafef-pi3 .dyna_form_field div.dyna_form_label {width: 105px;}
+#maincontent .tx-dynafef-pi3 .dynafef_actions_box {clear: left; margin-left: 105px;}
+
+/* homepage - highlights */
+#c284291 div.list-block {margin-left: 0px;}
+#c284291 div.tx-dynalist-pi1-recordlist {margin-bottom: 15px;}
+
+#c284291 div.list-title a {font-size: 1em;}
+
+#c283776 div#headers {text-align: left;}
+
+#c283776 .tx-dynalist-pi1-recordlist {margin-bottom: 0px;}
+/* #c283776 .tx-dynalist-pi1-recordlist div {display: table-cell;} */
+#c283776 .tx-dynalist-pi1-recordlist div.list-date {margin:5px 0;}
+
+#c284466 .contenttable {background:#ffffff;}
+#c284466 .contenttable td {border-left: none;}
+#c284466 .contenttable img {margin-right: 10px;}
+
+/* */
+#c526698 {clear:left;}
+#c526747 {clear:left;}
+
+#dyna_fef_page div {float: left;}
+#dyna_fef_page .dynafef_table_ckb {float: left; width: 100px;}
+#dyna_fef_page .dyna_form_label {width: 145px;}
+#dyna_fef_page div.dyna_form_field {clear:both;}
+#dyna_fef_page #dynafef_actions div.dyna_form_field {clear:none;}
+
+#dyna_fef_page div.dynafef_actions_box {margin-left: 145px; float: none !important; clear: both !important;}
+
+div.list-hp, div.list-slider {float: right; font-size: 19px; margin-left: 8px; cursor:pointer; color:#D1D1D1 !important;}
+div.list-hp.active i{color:#0071D1 !important;}
+div.list-slider.active i{color:#008954 !important;}
+
+#c301220 .list-hp {font-size: 19px; margin-bottom: 3px;}
+
+#dynafef_flc_image,
+#dynafef_flc_imagecaption {margin-left: 145px !important;}
+
+
+.tx-dynafef-pi4 .news-img {float: left; margin-right: 15px;}
+
+
+/* ___________________________________________ multicontent ________________________________________________________________ */
+
+div#c253052 .ui-widget-header {background: none; background-color:#ffffff; border: none; border-bottom: 2px solid #7f9ca0; }
+div#c253052 .ui-tabs {padding: 0px 0px 0px 0px;}
+div#c253052 .ui-tabs .ui-tabs-nav {margin: 0px;  padding-left: 0px; }
+
+div#c253052 div.tx-jfmulticontent-pi1 {margin: 20px 0px;}
+
+div#c253052 .ui-tabs .ui-tabs-nav li {border-bottom: 0 none !important; float: left; list-style: none outside none; margin: 0 0.2em 1px 0; padding: 0; position: relative; top: 1px; white-space: nowrap;}
+div#c253052 .ui-tabs .ui-tabs-nav li a {font-size: 1.1em;}
+
+div#c253052 .ui-widget {font-family: "FrutigerLTW02-45Light",Arial,Helvetica,Verdana,sans-serif !important; font-size: 1.0em;}
+
+div#c253052 .ui-state-default, div#c253052 .ui-widget-content .ui-state-default, div#c253052 .ui-widget-header .ui-state-default {background: url("http://www.fao.org/typo3conf/ext/jfmulticontent/res/jquery/css/theme-1.8.16/images/ui-bg_glass_65_ffffff_1x400.png") repeat-x scroll 50% 50% #FFFFFF;}
+div#c253052 .ui-state-active, div#c253052 .ui-widget-content .ui-state-active, div#c253052 .ui-widget-header .ui-state-active {background: url("http://www.fao.org/typo3conf/ext/jfmulticontent/res/jquery/css/theme-1.8.16/images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #F6F6f6;}
+
+div#c253052 div.tx-jfmulticontent-pi1 h2 {color: #222222; font-size: 18px; font-weight: normal; border-top:none;}
+div#c253052 div.tx-jfmulticontent-pi1 h3 {font-size: 15px; margin-top: 20px; margin-bottom: 8px;}
+
+div#c253052 div.tx-jfmulticontent-pi1 h5 {padding: 15px;}
+div#c253052 div.tx-jfmulticontent-pi1 h5 span {font-size: 14px !important; color: #333333 !important; line-height: 19px !important;}
+
+div#c253052 .ui-widget-content a {color: #7f9ca0; text-decoration: none; font-weight: normal; padding: 4px 13px;}
+div#c253052 .ui-widget-content a:hover {text-decoration: underline;}
+
+div#c253052 .ui-state-default a, div#c253052 .ui-state-default a:link, div#c253052 .ui-state-default a:visited {color: #7f9ca0;}
+div#c253052 .ui-state-active a, div#c253052 .ui-state-active a:link, div#c253052 .ui-state-active a:visited {color: #333333; }
+div#c253052 .ui-state-active, div#c253052 .ui-widget-content .ui-state-active, div#c253052 .ui-widget-header .ui-state-active {border: 1px solid #333333;}
+div#c253052 .ui-state-default, div#c253052 .ui-widget-content .ui-state-default, div#c253052 .ui-widget-header .ui-state-default {border: 1px solid #7f9ca0;}
+
+div#c253052 .ui-widget-content {border: none; background: none; background-color: #ffffff;}
+div#c253052 .ui-tabs .ui-tabs-panel {border: none; border-bottom: 2px solid #3B6CA9; padding: 15px 5px;}
+div#c253052 .ui-tabs .ui-tabs-panel a {padding: 0px;}
+div#c253052 .ui-tabs .ui-tabs-panel li {font-size: 13px;}
+div#c253052 .ui-tabs .ui-tabs-panel img {border: 1px solid #333333;}
+div#c253052 .ui-tabs .ui-tabs-panel p.bodytext {margin-top: 8px; margin-bottom: 12px; line-height: 18px;}
+div#c253052 .ui-tabs .ui-tabs-panel p.bodytext b {font-size: 14px; color: #3B6CA9;}
+
+div#c253052 .ui-corner-all, div#c253052 .ui-corner-bottom, div#c253052 .ui-corner-right, div#c253052 .ui-corner-br  {border-radius: 0px;}
+
+div#c253052 div.tx-dynalist-pi1 table tr.table-title td {background-color: #B6C6DB; font-size: 13px; padding: 5px; border-bottom: 1px solid #96ADCC;}
+div#c253052 div.tx-dynalist-pi1 table td {font-size: 13px; font-family: Calibri; padding: 7px; border-bottom: 1px solid #e0e0e0;}
+div#c253052 div.tx-dynalist-pi1 table td a {font-size: 14px; font-family: Calibri; padding: 0px;}
+div#c253052 div.tx-dynalist-pi1 table td b {font-size: 13px;}
+div#c253052 div.tx-dynalist-pi1 table td a b {padding: 0px;}
+
+div#c253052 div.tx-dynalist-pi1-pagination {border-top: none;}
+div#c253052 div.tx-dynalist-pi1-pagination a.paginate, div#c253052 div.tx-dynalist-pi1-pagination a.current {padding: 2px 9px;}
+div#c253052 div.tx-dynalist-pi1-pagination a.current, div#c253052 div.tx-dynalist-pi1 a.paginate:hover {color: #ffffff; background: none repeat scroll 0 0 #B6C6DB;}
+
+.news-list th {background: #7f9ca0 !important; color: #ffffff;}
+.news-list tr.category_header {background:#ccdfe7;}
+.news-list tr.category_header td{font-weight: bold;}
+
+#c284253 .list-title {margin-bottom: 0px !important;}
+#c284253 .list-date {font-size: 1.0em !important;}
+#c284253 .list-venue {font-style: normal;}
+
+#c284253 .list-block {margin-left: 0px;}
+
+/* ___________________________________________ toolbox ________________________________________________________________ */
+
+.toolbox-category-list {
+    margin-top: 10px;
+}
+
+.toolbox-category-list .csc-textpic-imagewrap{
+  width:20%;
+}
+
+.toolbox-category-list .csc-textpic-text{
+  width:100%;
+  padding: 10px 0 0 0;
+}
+
+.toolbox-category-list .csc-textpic-imagewrap img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.toolbox-category-list h4{
+  font-weight:bold !important;
+  margin:0px !important;
+}
+
+.toolbox-category-list .csc-textpic-text{
+  font-size: 0.9em;
+} 
+
+.toolbox-category-view .toolbox-category-list{
+  display:none;
+}
+
+.toolbox-list{
+  clear: both;
+}
+
+.toolbox-list .toolbox-block,
+.toolbox-list .toolbox-image{
+  float:left;
+}
+
+.toolbox-list .toolbox-image{
+  width:15%;
+}
+
+.toolbox-list .toolbox-image img{
+  width:100%;
+}
+
+.toolbox-list .toolbox-block{
+  width:85%;
+}
+
+.toolbox-list .toolbox-scale span,
+.toolbox-list .toolbox-type span,
+.toolbox-list .toolbox-thematic span{
+  font-weight:bold;
+}
+
+.toolbox-list .toolbox-block .row{
+  margin-bottom:10px;
+} 
+
+.toolbox-list .num-records{
+  padding: 5px 10px;
+  text-align: right;
+  font-style: italic;
+  background-color: #F7F7F7;
+  font-size: 0.9em;
+  margin-bottom:10px;
+}
+
+/* Start - Form Search - toobox */
+
+.toolbox-box-search .dyna_form_field_type_dropdown,
+.toolbox-box-search .dyna_form_field_type_listbox{
+  width:100%;
+}
+
+.toolbox-box-search .dyna_form_data_type_dropdown,
+.toolbox-box-search .dyna_form_data_type_listbox{
+    width: 84%;
+}
+
+.toolbox-box-search .select2-container{
+  width:100% !important;
+  margin-bottom: 10px !important;
+}
+
+.toolbox-box-search .select2-selection ul li{
+  margin-bottom: 0;
+  left: 0;
+}
+
+.toolbox-box-search .select2-search__field {
+  border: 0 !important;
+}
+
+.toolbox-box-search .select2-container .select2-selection--single {
+  height: 34px;
+}
+
+.toolbox-box-search .dyna_form_field{
+  height:auto !important;
+}
+
+.toolbox-box-search .hide{
+  display:none !important;
+}
+
+
+.toolbox-box-search h4{
+  background-color: #d5e4eb;
+  color: #15599b;
+  margin: 10px 0 0;
+  padding: 5px 10px;
+  cursor:pointer;
+}
+
+.toolbox-box-search h4 i{
+  color: #ffffff;  
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.toolbox-box-search .more_options {
+    clear: both;
+    width: 99%;
+}
+
+.toolbox-box-search .content_fields{
+  padding:10px;
+  border: 1px solid #d5e4eb;
+  width: 97%;
+}
+
+.toolbox-box-search #div_free_text{
+  margin:0px !important;
+  width: 94%;
+}
+
+.toolbox-box-search #id_free_text {
+  border: 2px solid #cecece;
+  border-radius: 7px 0px 0px 7px;
+  font-size: 13px !important;
+  padding: 10px !important;
+  width: 97%;
+}
+
+.toolbox-box-search #divdata_free_text{
+    width: 100%;
+}
+
+.toolbox-box-search #div_free_text input{
+  margin:0px !important;
+}
+
+.toolbox-box-search .magnifying_glass {
+    float: right;
+    margin-top: 0px;
+    padding: 13px 12px;
+    background-color: #0e67a2;
+    border: 0;
+    color: #ffffff;
+    margin-right: 3px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.toolbox-box-search #dynafef_actions{
+  width:101%;
+  margin-left: -15px !important;
+  clear:both !important;
+  padding: 10px 0 0 0;
+}
+
+.toolbox-box-search #dynafef_actions #div_submit_button{
+  clear:both !important;
+  margin: 0 0 0 auto;
+  width: 100% !important;
+  display:block;
+}     
+
+.toolbox-box-search #dynafef_actions input{
+  padding:0;
+  margin:0 0 12px !important;
+  float:right !important;
+}
+
+.toolbox-box-search #div_my_year input{
+  border:1px solid #aaaaaa;
+  padding: 7px;
+}
+
+.toolbox-box-search .year_label{
+  margin-bottom:10px;
+  clear:both;
+}
+
+.toolbox-box-search #div_my_year_from,
+.toolbox-box-search #div_my_year_from .dyna_form_label,
+.toolbox-box-search #div_my_year_from .dyna_form_data{
+  float:left;
+}
+
+.toolbox-box-search #div_my_year_to,
+.toolbox-box-search #div_my_year_to .dyna_form_label,
+.toolbox-box-search #div_my_year_to .dyna_form_data{
+  float:left;
+}
+
+.toolbox-box-search #div_my_year_from,
+.toolbox-box-search #div_my_year_to{
+  width:100px;
+}
+
+.toolbox-box-search #div_my_year_from .dyna_form_data{
+  width:50px;
+}
+
+.toolbox-box-search #div_my_year_to .dyna_form_data{
+  width:50px;
+}
+
+.toolbox-box-search #div_my_year_from .dyna_form_label,
+.toolbox-box-search #div_my_year_to .dyna_form_label{
+  padding:3px 7px;
+}
+
+.toolbox-box-search #dynafef_actions{
+  display:none;
+}
+
+.toolbox-box-search #div_user_extextender_option_list_2 .dyna_form_data_type_checkbox{
+  width: 45%;
+  float: left;
+  padding: 10px 0px 0 5px;
+}
+
+/* End - Form Search - toobox */
